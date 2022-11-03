@@ -1,0 +1,15 @@
+.img {
+	height: 76px;
+	width: 88px;
+}
+
+.nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 1rem;
+}
+
+.hammer {
+	margin-top: 0.5rem;
+}
