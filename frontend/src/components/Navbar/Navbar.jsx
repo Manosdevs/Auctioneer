@@ -7,10 +7,10 @@ export default function NavBar() {
 	return (
 		<>
 			<div className={styles.nav}>
-				<List className={styles.hammer} size={36} />
-				<div>
+				<List className={styles.list} size={36} />
+				<div className={styles.logo}>
 					<img src={logo} className={styles.img} alt='logo' />
-					Auctioneer
+					<h3 className={styles.logoHeader}>Auctioneer</h3>
 				</div>
 
 				<Hammer className={styles.hammer} size={36} />

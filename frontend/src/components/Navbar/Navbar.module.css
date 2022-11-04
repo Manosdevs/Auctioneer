@@ -1,6 +1,6 @@
 .img {
-	height: 76px;
-	width: 88px;
+	height: 52px;
+	width: 61px;
 }
 
 .nav {
@@ -10,6 +10,31 @@
 	padding-top: 1rem;
 }
 
+.logo {
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logoHeader {
+	font-size: clamp(1.1rem, 4vw, 2rem);
+	}
+
 .hammer {
+	margin-top: 0.5rem;
+	/* transform: rotate(-45deg); */
+	transition: 1s;
+
+	
+}
+
+.hammer:active {
+	transform: rotate(-45deg);
+	transition: 0.2s;
+
+}
+
+.list {
 	margin-top: 0.5rem;
 }
