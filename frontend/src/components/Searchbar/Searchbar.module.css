@@ -1,5 +1,5 @@
 .searchbar {
-    width: 10rem;
+    width: 11rem;
     height: 1.8rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -10,10 +10,11 @@
     font-size: 0.9rem;
     margin-left: auto;
     margin-right: auto;
-    
-    
-
+     
 }
+
+
+
 
 .searchbar:focus {
     outline: none;
@@ -35,5 +36,6 @@
     justify-content: space-around;
     align-items: center;
 }
+
 
 

@@ -15,7 +15,7 @@ function Searchbar() {
 
   return (
    <>
-    <form clasName={styles.form}>
+    <form className={styles.form}>
        
     <input className={styles.searchbar}
     id='searchBar'

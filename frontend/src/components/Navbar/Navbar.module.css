@@ -14,27 +14,22 @@
 	width: 50%;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .logoHeader {
 	font-size: clamp(1.1rem, 4vw, 2rem);
 	}
 
-.hammer {
+.cart {
 	margin-top: 0.5rem;
 	/* transform: rotate(-45deg); */
-	transition: 1s;
-
+	cursor:pointer;
 	
 }
 
-.hammer:active {
-	transform: rotate(-45deg);
-	transition: 0.2s;
-
-}
 
 .list {
 	margin-top: 0.5rem;
+	cursor: pointer;
 }

@@ -21,6 +21,18 @@ export function GetAuctions() {
 
 }
 
+export function GetSingleAuction(id) {
+    return useAxios({
+        method: 'GET',
+        url: `/get-auction/${id}/`,
+        headers: {
+            accept: `*/*`,
+        },
+    })
+
+}
+
+
 
 
 
